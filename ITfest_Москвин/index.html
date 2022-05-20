@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="css/style.css">
+    <title>my site!</title>
+</head>
+<body>
+<!-- Навигация -->
+<div class="container-fluide fixed-top bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light myNav">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo01">
+            <ul class="mb-2 mb-lg-0 info">
+                <li><span>IP: </span> 000.000.000.000</li>
+                <li><span>Версия: </span> 1.12.2</li>
+                <li><span>Игроков: </span> 274 из 1500</li>
+            </ul>
+            <ul class="navbar-nav mb-2 mb-lg-0 text-uppercase">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">О сервере</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#mods">Моды</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#players">Рейтинг</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallery">Галерея</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</div>
+
+<div class="empty">
+</div>
+<!-- О сервере -->
+<div class="container about">
+    <div class="row">
+        <div class="col-12 animRow">
+          <h2 class="text-center ">Приветствуем на </h2>
+          <h1 class="text-center text-uppercase">Первом сервере Minecraft для технического творчества при поддержке ФЦДО</h1>
+          <h3 class="text-center ">Особенности сервера:</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 animRow2">
+        <ol>
+            <li>Карта игровой зоны соответствует карте территорий Российской
+                Федерации и включает все регионы Страны. Каждый игровой регион будет
+                содержать определенный тип ресурсов, а участникам игрового сервера
+                будет необходимо налаживать торговые отношения и выстраивать
+                договоренности для взаимовыгодного сотрудничества
+            </li>
+            <li>Игровые модификации добавляют в игру новые технологические
+                элементы и позволяют участникам находить новые типы ресурсов,
+                необходимые для развития важных отраслей современной жизни
+                (энергетика, космонавтика, биологические виды новых
+                сельскохозяйственных культур и многое другое)
+            </li>
+            <li>Команда организаторов систематически проводит образовательные и
+                развлекательные события (Ивенты): кейскарты, jumping пазлы,
+                королевские битвы, командные головоломки и многое другое
+            </li>
+        </ol>
+        
+        <p>В 2023 году сервер откроет свои двери для всех желающих, но уже сейчас
+            самые преданные любители кубической песочницы могут подать заявку на
+            beta-тестирование. Торопитесь!
+        </p>
+
+        </div>
+    </div>
+</div>
+
+<!-- Модификации -->
+
+<div class="container" id="mods">
+  <div class="row title">
+    <div class="col-12 text-center text-uppercase animRow">
+      <h2>Модификации</h2>
+    </div>
+  </div>
+
+  <!-- Карусель -->
+
+  <!-- Carousel wrapper -->
+<div
+id="carouselMultiItemExample"
+class="carousel slide carousel-dark text-center animRow3"
+data-mdb-ride="carousel"
+>
+<!-- Controls -->
+<div class="d-flex justify-content-center mb-4">
+  <button
+    class="carousel-control-prev position-relative"
+    type="button"
+    data-mdb-target="#carouselMultiItemExample"
+    data-mdb-slide="prev"
+  >
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next position-relative"
+    type="button"
+    data-mdb-target="#carouselMultiItemExample"
+    data-mdb-slide="next"
+  >
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!-- Inner -->
+<div class="carousel-inner py-4">
+  <!-- Single item -->
+  <div class="carousel-item active">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <img
+              src="img/mods-1.png"
+              class="card-img-top"
+              alt="Waterfall"
+            />
+            <div class="card-body">
+              <h5 class="card-title">MiniMePets [1.18.2]</h5>
+              <p class="card-text">
+                Описание<br>
+                Превратите волков и кошек в маленьких игроков, используя именную бирку. Имейте мини-версии себя, друзей, ютуберов или кого угодно, кто будет следовать за вами в приключениях или заселять ваш дом. Это изменение чисто визуальное, поэтому волки по-прежнему будут сражаться на вашей стороне, все они берут свою обычную пищу для размножения/лечения, а щелчок правой кнопкой мыши усадит их, чтобы они не следовали за вами повсюду.
+              </p>
+              <a href="https://minecraft-inside.ru/mods/155546-minimepets.html" class="btn btn-primary glow-on-hover" target="_blank">Скачать</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/mods-2.png"
+              class="card-img-top"
+              alt="Sunset Over the Sea"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Angry Mobs [1.18.2] [1.16.5]</h5>
+              <p class="card-text">
+                Описание<br>
+                Этот мод позволяет добавлять ИИ цели в мобов Minecraft, чтобы они могли атаковать, просить помощи, прыгать или стрелять в вас объектами.
+              </p>
+              <a href="https://minecraft-inside.ru/mods/155626-angry-mobs.html" class="btn btn-primary glow-on-hover" target="_blank">Скачать</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/mods-3.png"
+              class="card-img-top"
+              alt="Sunset over the Sea"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Nosiphus Furniture [1.16.5]</h5>
+              <p class="card-text">
+                Описание<br>
+                Когда MrCrayFish обновил мод «Мебель» с 1.12.2 до 1.16.5, он решил направить мод в новом направлении, и часть этого направления означала отказ от старой мебели. С его благословения я создал аддон для чтения этой мебели. Я также расширил эти блоки, чтобы более внимательно следить за некоторыми изменениями, внесенными основным модом.
+              </p>
+              <a href="https://minecraft-inside.ru/mods/155521-nosiphus-furniture.html" class="btn btn-primary glow-on-hover" target="_blank">Скачать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Single item -->
+  <div class="carousel-item">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-12">
+          <div class="card">
+            <img
+              src="img/mods-4.png"
+              class="card-img-top"
+              alt="Fissure in Sandstone"
+            />
+            <div class="card-body">
+              <h5 class="card-title">OxyTools [1.18.1]</h5>
+              <p class="card-text">
+                Описание<br>
+                Если вы любите приятно проводить время и наслаждаться реализмом, мы предлагаем вам воспользоваться дополнением OxyTools для Майнкрафт. Оно уникально тем, что предлагает внедрить систему окисления или ржавчины, которая будет сопровождать вас во всех приключениях. 
+              </p>
+              <a href="https://tlauncher.org/ru/mods-1181_125/oxytools-1-18-1_16403.html" class="btn btn-primary glow-on-hover" target="_blank">Скачать</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/mods-5.png"
+              class="card-img-top"
+              alt="Storm Clouds"
+            />
+            <div class="card-body">
+              <h5 class="card-title">AfriCraft [1.16.5]</h5>
+              <p class="card-text">
+                Описание<br>
+                Фауна любимой игры хоть и имеет много разнообразной живности, но она предлагает далеко не тот объем, который хотелось бы. К примеру, сегодня мы предлагаем вам воспользоваться дополнением AfriCraft для Майнкрафт, которое значительно разнообразит животных и позволит без каких-либо проблем познакомиться с новыми разновидностями наших животных. 
+              </p>
+              <a href="https://tlauncher.org/ru/mods-1165_115/africraft-1-16-5_16238.html" class="btn btn-primary glow-on-hover" target="_blank">Скачать</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 d-none d-lg-block">
+          <div class="card">
+            <img
+              src="img/mods-6.png"
+              class="card-img-top"
+              alt="Hot Air Balloons"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Jwan's DBC Essentials [1.7.10]</h5>
+              <p class="card-text">
+                Описание<br>
+                wan's DBC Essentials для Майнкрафт – крупное дополнение, которое позволит отправиться на просторы совершенно нового мира, который вам наверняка понравится. Для начала следует обратить внимание на обильное количество контента, среди которого можно отметить следующее: новая раса, новая магия и заклинания, пассивные формы для крафта и многое другое. 
+              </p>
+              <a href="https://tlauncher.org/ru/mods-1710_7/jwan-s-dbc-essentials-1-7-10_16204.html" class="btn btn-primary glow-on-hover">Скачать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Inner -->
+</div>
+<!-- Carousel wrapper -->
+</div>
+
+<!-- Таблица рейтингов игроков -->
+
+<div class="container" id="players">
+    <div class="row title animRow">
+      <div class="col-12 text-center text-uppercase">
+        <h2>Рейтинг игроков</h2>
+      </div>
+    </div>
+</div>
+
+<div class="animRow">
+<iframe referrerpolicy="no-referrer-when-downgrade" height="800px"
+width="100%" style="border:none;"
+src="https://view-awesome-table.com/-MypmRLT8uFwzvE_fTy5/view"></iframe>
+</div>
+
+<!-- Галерея -->
+
+<div class="container" id="gallery">
+  <div class="row title animRow">
+    <div class="col-12 text-center text-uppercase">
+      <h2>Галерея</h2>
+    </div>
+  </div>
+
+  <!-- Gallery -->
+<div class="row animRow2">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+    <img
+      src="img/1.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+      title="Автор: Кузнецов А.С."
+    />
+
+    <img
+      src="img/2.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+      title="Автор: Парцынов В.Р."
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="img/3.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Mountains in the Clouds"
+      title="Автор: Дурнов М.Д."
+    />
+
+    <img
+      src="img/4.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+      title="Автор: Морозова О.Л."
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <img
+      src="img/5.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+      title="Автор: Птицын Д.К."
+    />
+
+    <img
+      src="img/6.jpg"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+      title="Автор: Смуров Л.И."
+    />
+  </div>
+</div>
+<!-- Gallery -->
+
+<!-- Кнопка -->
+
+<div class="d-grid">
+  <button class="btn m-3 text-uppercase glow-on-hover-gal">Обновить галлерею</button>
+</div>
+</div>
+
+<!-- Подвал сайта -->
+<footer class="bg-dark text-white">
+  <div class="container" id="contact">
+    <div class="row">
+      <div class="col-12 text-center">
+        <p>Команда-организатор сервера: Федеральное государственное
+           бюджетное образовательное учреждение дополнительного образования
+           «Федеральный центр дополнительного образования и организации
+           отдыха и оздоровления детей» (ФГБОУ ДО ФЦДО)
+        </p>
+        <a href="vk.com/FEDCDOMinecraft"><i class="fa-brands fa-vk"></i></a>
+
+        <a href="t.me/FEDCDOMinecraft"><i class="fa-brands fa-telegram"></i></a>
+
+        <a href=" https://discord.gg/8kpuuzG4jU"><i class="fa-brands fa-discord"></i></a>
+
+
+      </div>
+    </div>
+
+    <div class="row text-center">
+      <div class="col-12 m-3">
+        <a href="registration.html" target="_blank" class="btn m-3 text-uppercase f_btn">Хочу в БЕТА-ТЕСТ</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.11.0/mdb.min.js"></script>
+</body>
+</html>
